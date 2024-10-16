@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
 # Load the dataset
-data = pd.read_csv('daily_website_visitors.csv')
+data = pd.read_csv('/content/daily_website_visitors.csv')
 
 # Convert the 'Date' column to datetime format and set it as the index
 data['Date'] = pd.to_datetime(data['Date'])
